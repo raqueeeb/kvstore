@@ -1,5 +1,7 @@
 # kvstore
 
+> 📘 **Case study:** [raqueeb.dev/projects/kvstore](https://raqueeb.dev/projects/kvstore) — architecture, stack and implementation notes.
+
 A durable, concurrent key-value store built from scratch in Go: custom binary
 TCP protocol, sharded in-memory storage engine, write-ahead log with group
 commit, crash recovery, TTL expiry, memory limits with sampled-LRU eviction,
